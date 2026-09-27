@@ -47,7 +47,7 @@ For geographic data mapping, we utilized shapefiles provided by the United State
 #### File format(s)
 
 The processed version of the above three base models’ prediction dataset are included in 
-https://github.com/Lyric98/BNE_application/blob/master/data/training_dataset/training51.csv . We used this CSV file to processed our case study.
+https://github.com/Lyric-o/BNE_application/blob/master/BNE_method/data/training_dataset/training51.csv . We used this CSV file to processed our case study.
 
 #### Data dictionary
 
@@ -63,7 +63,7 @@ In our case study, we processed the first 7 columns of the above CSV file and th
 
 ## Part 2: Code
 
-The codebase includes modules to train BNE models using base model predictions and air pollution outcome (under [BNE_method](https://github.com/Lyric98/BNE_application/tree/master/BNE_method)), and also jupyer notebooks for generating prediction and visualize results ([BNE_method/case_study_results](https://github.com/Lyric98/BNE_application/tree/master/BNE_method/case_study_results)). The detailed instructions for training code for parameter tuning is in [BNE_method/Tuning/README.me](https://github.com/Lyric98/BNE_application/tree/master/BNE_method/Tuning#readme), and the instructions for executing the jupyter notebook is contained in the notebook itself.
+The codebase includes modules to train BNE models using base model predictions and air pollution outcome (under [BNE_method](https://github.com/Lyric-o/BNE_application/tree/master/BNE_method)), and also jupyer notebooks for generating prediction and visualize results ([BNE_method/case_study_results](https://github.com/Lyric-o/BNE_application/tree/master/BNE_method/case_study_results)). The detailed instructions for training code for parameter tuning is in [BNE_method/Tuning/README.me](https://github.com/Lyric-o/BNE_application/tree/master/BNE_method/Tuning#readme), and the instructions for executing the jupyter notebook is contained in the notebook itself.
 
 #### Supporting software requirements 
 - Python = 3.8
